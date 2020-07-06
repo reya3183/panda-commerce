@@ -1,3 +1,6 @@
+.container{
+        margin-bottom: 100px;;
+}
 .pinky-bg{
         background-color: #FDE6E8;
         border-radius: 10px;
@@ -15,4 +18,41 @@
         border-radius:8px;
         padding: 9px 25px;
         cursor:pointer;
+}
+.cat1, .cat2, .cat3{
+        padding: 10px 30px;
+        border-radius: 10px;
+}
+.cat1{
+        background-image: linear-gradient(45deg,#F19630, #F4C51D);
+}
+.cat2{
+        background-image: linear-gradient(45deg,#EB1E6C, #EF498E);
+}
+.cat3{
+        background-image: linear-gradient(45deg,#4473FF, #231BA0);
+}
+.categories h1{
+        color:white;
+}
+.categories img{
+        width: 100px;
+}
+.card{
+        border-radius: 10px;
+        border: none;
+        box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+        border-top: none;
+        background-color: white;;
+}
+#subscribe{
+        height: 300px;
+}
+#subscribe h6{
+        color: gray;
+}
+footer{
+        text-align: center;
 }
